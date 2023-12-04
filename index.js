@@ -15,12 +15,10 @@ document.getElementById("p1").innerHTML = "Hello " + name;
 document.getElementById("p2").innerHTML = "you are " + age + " years old";
 document.getElementById("p3").innerHTML = liking_pizza;
 
-let number1 = 10;
-number1 = 22;
+let number1 = 22;
 number1 -= 2;
 
 console.log("number1:", number1);
 console.log("number1 / 2:", number1 / 2);
 console.log("number1 * 0.5:", number1 * 0.5);
 console.log("number1 % 3:", number1 % 3);
-

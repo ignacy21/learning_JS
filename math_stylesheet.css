@@ -1,0 +1,13 @@
+.result {
+    background-color: blueviolet;
+    color: blue;
+    font-size: large;
+}
+
+button {
+    border: 0;
+    background-color: chartreuse;
+    color: green;
+    border-radius: 20px;
+
+}

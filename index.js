@@ -16,4 +16,3 @@ console.log(Boolean(null))
 
 notANumber = Number("santa")
 console.log(notANumber, typeof notANumber)
-

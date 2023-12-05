@@ -34,6 +34,20 @@ document.getElementById("calcHypotenuse").onclick = function () {
 
 }
 
+let counter = 0
+document.getElementById("decrease").onclick = function() {
+    counter -= 1
+    document.getElementById("counterValue").innerHTML = counter
+}
+document.getElementById("increase").onclick = function() {
+    counter += 1
+    document.getElementById("counterValue").innerHTML = counter
+}
+document.getElementById("reset").onclick = function() {
+    counter = 0
+    document.getElementById("counterValue").innerHTML = counter
+}
+
 
 let x = 9.49
 let y = -10.92

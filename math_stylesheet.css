@@ -11,3 +11,24 @@ button {
     border-radius: 20px;
 
 }
+
+.counter {
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+}
+#counterDiv {
+    width: max-content;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#counterValue {
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+
+}
